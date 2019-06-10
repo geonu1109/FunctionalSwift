@@ -8,8 +8,8 @@
 
 import Foundation
 
-func run(_ block: () throws -> Void) rethrows -> Void {
-    try block()
+func run(_ block: () -> Void) -> Void {
+    block()
 }
 
 protocol KotlinHigherOrderFunctionsEnabled {
@@ -17,13 +17,13 @@ protocol KotlinHigherOrderFunctionsEnabled {
 }
 
 extension KotlinHigherOrderFunctionsEnabled {
-    func also(_ block: (Self) throws -> Void) rethrows -> Self {
-        try block(self)
+    func also(_ block: (Self) -> Void) -> Self {
+        block(self)
         return self
     }
     
-    func `let`<R>(_ block: (Self) throws -> R) rethrows -> R {
-        return try block(self)
+    func `let`<R>(_ block: (Self) -> R) -> R {
+        return block(self)
     }
 }
 
