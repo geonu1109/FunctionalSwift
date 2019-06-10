@@ -30,3 +30,51 @@ extension KotlinHigherOrderFunctionsEnabled {
 extension NSObject: KotlinHigherOrderFunctionsEnabled {
     
 }
+
+extension Bool: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Int: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension UInt: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Float: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Double: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Character: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension String: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Data: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Date: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Array: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Dictionary: KotlinHigherOrderFunctionsEnabled {
+    
+}
+
+extension Set: KotlinHigherOrderFunctionsEnabled {
+    
+}
