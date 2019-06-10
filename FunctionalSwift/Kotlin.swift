@@ -2,7 +2,7 @@
 //  Kotlin.swift
 //  FunctionalSwift
 //
-//  Created by 전건우 on 10/06/2019.
+//  Created by Geonu Jeon on 10/06/2019.
 //  Copyright © 2019 Geonu Jeon. All rights reserved.
 //
 
